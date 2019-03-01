@@ -1,15 +1,6 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
-}
-
-header {
-	width: 100%;
-	height: 15%;
-	position: absolute;
-	top: 0px;
-	color: black;	
-	background: white;
 }
 
 body{
@@ -17,17 +8,182 @@ body{
 	font-family: 'Lucida Sans Unicode', 'Trebuchet MS', sans-serif;
 }
 
-.login{
-	text-align: right;
-	color: grey;
-	margin-top: 0;
-	margin-right: 150px;
+header {
+	background-color: black;
+	width: 100%;
+	height: 80px;
+	position: relative;
+	color: #EEEEEE;
+	font-family: 'Lucida Sans Unicode', 'Trebuchet MS', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main_head {
+	background-color: #222;
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+
+.logo {
+	/*background-color: #211;*/
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.logo_text {
+	position: relative;
+	width: 20%;
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.logo_text a {
+	color: #BBB;
+}
+
+.logo_text a:hover {
+	color: #FFF;
+}
+
+.login {
+	/*background-color: #112;*/
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+
+.login_form {
+	/*background-color: #AAA;*/
+	position: relative;
+	width: 50%;
+	height: 60%;
+	margin: 10px 0 0 400px;
+	font-size: 14px;
+}
+
+.bin {	
+	/*background-color: #121;*/
+	width: 5%;
+	height: 100%;
+	float: left;
+}
+
+.bin a {
+	position: relative;
+	left: 20px;
+	top: 20px;
+	color: #FFF;
+}
+
+.bin a:hover {
+	color: #AAA;
+}
+
+.reg {
+	height: 20px;
+	width: 90%;
+}
+
+.email_reg, .pass_reg {
+	float: left;
+	width: 45%;
+}
+
+.submit_reg {
+	/*background-color: #222;*/
+	position: relative;
+	width: 10%;
+	padding-top: 5px;
+	float: left;
+}
+
+.secondary_head {
+	/*background-color: #111;*/
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+
+.categories {
+	/*background-color: #311;*/
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+
+.categories ol {
+	list-style: none;
+	margin-left: 25px;
+}
+
+.categories li {
+	display: inline-block;
+	max-width: 80px;
+	height: 100%;
+	padding: 3px 10px 0px 10px;
+}
+
+.categories a {
+	color: #EEE;
+}
+
+.categories a:hover {
+	color: #444;
+}
+
+.search {
+	/*background-color: #131;*/
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.search_form {
+	/*background-color: #141;*/
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+}
+
+.search_bar, .search_btn {
+	float: left;
+}
+
+.search_bar {
+	width: 80%;
+	height: 20px;
+	padding-top: 4px;
+}
+
+.search_bar input {
+	width: 90%;
+	height: 15px;
+}
+
+.search_btn {
+	width: 20%;
+	padding-top: 6px;
+}
+
+.search_btn input {
+	width: 70%;
+	height: 20px;
 }
 
 .logo{
 	left: 15px;
 	top: 15px;
+}
 
+.search_part {
+	width: 85%;
 }
 
 footer {
@@ -87,7 +243,6 @@ footer a {
 	font-size: 15px;
 	color: gray;
 	display: block;
-	text-decoration: none;
 }
 
 footer a:hover {
