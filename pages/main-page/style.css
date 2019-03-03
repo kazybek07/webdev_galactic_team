@@ -11,7 +11,7 @@ body{
 header {
 	background-color: black;
 	width: 100%;
-	height: 80px;
+	height: 130px;
 	position: relative;
 	color: #EEEEEE;
 	font-family: 'Lucida Sans Unicode', 'Trebuchet MS', sans-serif;
@@ -24,7 +24,7 @@ a {
 .main_head {
 	background-color: #222;
 	width: 100%;
-	height: 50px;
+	height: 65%;
 	position: relative;
 }
 
@@ -37,9 +37,10 @@ a {
 
 .logo_text {
 	position: relative;
-	width: 20%;
-	margin-left: 80px;
-	margin-top: 10px;
+	width: 150px;
+	height: 40px;
+	margin-left: 25%;
+	margin-top: 30px;
 	font-size: 14px;
 }
 
@@ -63,7 +64,7 @@ a {
 	position: relative;
 	width: 50%;
 	height: 60%;
-	margin: 10px 0 0 400px;
+	margin: 30px 0 0 400px;
 	font-size: 14px;
 }
 
@@ -77,7 +78,7 @@ a {
 .bin a {
 	position: relative;
 	left: 20px;
-	top: 20px;
+	top: 35px;
 	color: #FFF;
 }
 
@@ -106,7 +107,7 @@ a {
 .secondary_head {
 	/*background-color: #111;*/
 	width: 100%;
-	height: 30px;
+	height: 35%;
 	position: relative;
 }
 
@@ -126,7 +127,9 @@ a {
 	display: inline-block;
 	max-width: 80px;
 	height: 100%;
-	padding: 3px 10px 0px 10px;
+	padding: 12px 10px 0px 10px;
+
+	font-size: 14px;
 }
 
 .categories a {
@@ -159,7 +162,7 @@ a {
 .search_bar {
 	width: 80%;
 	height: 20px;
-	padding-top: 4px;
+	padding-top: 7px;
 }
 
 .search_bar input {
@@ -169,7 +172,7 @@ a {
 
 .search_btn {
 	width: 20%;
-	padding-top: 6px;
+	padding-top: 10px;
 }
 
 .search_btn input {
@@ -177,7 +180,7 @@ a {
 	height: 20px;
 }
 
-.logo{
+.logo {
 	left: 15px;
 	top: 15px;
 }
@@ -186,10 +189,114 @@ a {
 	width: 85%;
 }
 
+.content {
+	background-color: #AAA;
+	width: 100%;
+	height: 500px;
+}
+
+.left, .right {
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+
+.left {
+	/*background-color: #BBB;*/
+}
+
+.left_content {
+	/*background-color: #444;*/
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+
+.left_info {
+	font-family: Verdana serif;
+	font-size: 16px;
+	color: #000;
+	
+
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+tr, td {
+	padding: 2px;
+}
+
+.sectors {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.left_top {
+	background-color: #FF0000;
+}
+
+.right_top {
+	background-color: #3121FF;
+}
+
+.left_bot {
+	background-color: #32FFFF;
+}
+
+.right_bot {
+	background-color: #FFF123;
+}
+
+.sector {
+	width: 200px;
+	height: 200px; 
+	padding: auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px; 
+}
+
+.sector p {
+	font-family: Verdana serif;
+	font-size: 18px;
+
+	color: #000;
+}
+
+.sector:hover {
+	opacity: 0.6;
+}
+
+.right {
+	/*background-color: #CCC;*/
+
+	font-family: Verdana serif;
+	font-size: 16px;
+	color: #000;
+}
+
+.right_content {
+	/*background-color: #DDD;*/
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.right_info {
+
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+.right p {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
 footer {
 	width: 100%;
 	height: 260px;
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0px;
 	background-color: white;
 }
